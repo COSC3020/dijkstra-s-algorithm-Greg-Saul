@@ -24,3 +24,7 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+
+## Sources
+https://www.w3schools.com/jsref/jsref_infinity.asp infinity for js
