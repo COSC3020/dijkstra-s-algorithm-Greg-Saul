@@ -25,6 +25,10 @@ inefficient.
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+## My Analysis
+
+The runtime of this would be $\theta(V^2)$ where $V$ is the number of vertices. This is because inside the while loop there is 2 for loops that each run $V$ times one right after another. They run one right after another giving us $\theta(2V)$. The while loop runs while visited length is less than graph length. This makes the loop run $V$ times. This gives us $V(2V)$ or just $V^2$ after we multiply and drop the constant.
+
 
 ## Sources
 https://www.w3schools.com/jsref/jsref_infinity.asp infinity for js
