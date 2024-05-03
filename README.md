@@ -28,3 +28,7 @@ answer, including your reasoning, to this markdown file.
 
 ## Sources
 https://www.w3schools.com/jsref/jsref_infinity.asp infinity for js
+
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/  no code was taken from here, I just used their visual representations
+
+chat gpt to help mw find an error specifically with line 25 ```if (visited.indexOf(i) === -1 && dist[i] < min){```
